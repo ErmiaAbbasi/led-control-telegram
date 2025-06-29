@@ -7,8 +7,6 @@
 This project is a Telegram bot that controls an LED connected to an Arduino with serial communication.  
 Use Telegram commands `/on` and `/off` to turn the LED on or off remotely.
 
-
-![LED Control Gif](https://s33.picofile.com/file/8485428276/20250629_063903.mp4.html)
 ---
 
 ## Requirements
