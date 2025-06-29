@@ -1,2 +1,55 @@
-# led-control-telegram
-In this project i'm going to make a telegram bot that can control an LED with arduino.
+# LED Control Telegram Bot
+
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+
+## Overview
+
+This project is a Telegram bot that controls an LED connected to an Arduino with serial communication.  
+Use Telegram commands `/on` and `/off` to turn the LED on or off remotely.
+
+---
+
+## Requirements
+
+- Python
+- `python-telegram-bot` library  
+- `pyserial` library  
+- Arduino board with LED connected  
+
+---
+
+## Setup
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/ErmiaAbbasi/led-control-telegram.git
+   cd led-control-telegram
+
+2. Install Python dependencies:
+
+    pip install -r requirements.txt
+
+3. Upload the Arduino sketch arduino.ino to your Arduino board.
+
+---
+
+## Usage
+
+Start the bot by sending /start in your Telegram chat.
+
+Use /on to turn the LED ON.
+
+Use /off to turn the LED OFF.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## Contact
+
+ErmiaAbbasi2006@gmail.com
